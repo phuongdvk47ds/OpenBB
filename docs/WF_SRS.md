@@ -1559,7 +1559,7 @@ sequenceDiagram
 │ * fred_api_key        [**********]                                     │
 │ * fmp_api_key         [**********]                                     │
 │                                                                        │
-│ [!] Tệp user_settings.json được tạo với nội dung mặc định nếu chưa tồn tại       │
+│ [!] user_settings.json is created with defaults if missing             │
 ├────────────────────────────────────────────────────────────────────────┤
 │ [ Save ]  [ Open file ]                                                │
 └────────────────────────────────────────────────────────────────────────┘
