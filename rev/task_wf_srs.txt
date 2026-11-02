@@ -1,0 +1,3 @@
+Hãy nạp và áp dụng toàn bộ chỉ dẫn, quy tắc trích xuất bằng chứng, mẫu ASCII Mockup và cấu trúc chuẩn ISO/IEC/IEEE 29148:2018 được định nghĩa trong `.claude/skills/ba-wf-srs-generator.md`.
+
+Nhiệm vụ: Reverse-engineer toàn bộ codebase hiện tại kết hợp dữ liệu quét của `agents-reverse-engineer` (ARE) để xây dựng tài liệu hoàn chỉnh tại `docs/WF_SRS.md`.

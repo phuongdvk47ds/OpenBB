@@ -1,0 +1,16 @@
+Hãy nạp và thực thi skill `ba-wf-urd-generator` để xây dựng tài liệu User Requirements Document (URD) theo chuẩn ISO 9241-210:2019.
+
+Input Files:
+- Tài liệu nguồn tham chiếu (nếu có): `docs/AGILE_SRS.md`.
+- Tài liệu nguồn tham chiếu (nếu có): `docs/WF_SRS.md`.
+Output Files:
+- File đầu ra mục tiêu: `docs/URD.md`
+
+Yêu cầu thực thi:
+1. Đọc và phân tích các file input để xác định bản chất hệ thống theo Cơ chế rẽ nhánh (Decision Matrix):
+   - Nếu là hệ thống xử lý ngầm/Backend/Data Pipeline: Kích hoạt Nhánh B (Headless) và sử dụng CLI Workflow hoặc Data Contract Interaction Matrix thay vì dựng UI Mockup.
+   - Nếu có giao diện Dashboard/Cấu hình giám sát: Kích hoạt Nhánh A và dựng Low-Fidelity ASCII Mockup tương ứng.
+2. Áp dụng quy trình Phased Execution để biên soạn đầy đủ 8 mục theo chuẩn ISO 9241-210:2019 (từ Bối cảnh sử dụng, Personas, Hành trình trải nghiệm, đến Đặc tả kịch bản tương tác và Tiêu chí khả dụng ISO 9241-11).
+3. Tự động kiểm tra cú pháp toàn bộ biểu đồ Mermaid được sinh ra trong `docs/URD.md` bằng script kiểm thử để đảm bảo không có lỗi render.
+
+Bắt đầu thực hiện Giai đoạn 1 và tạo file `docs/URD.md` ngay.
